@@ -178,6 +178,10 @@ nav.navbar-light .navbar-nav .active>.nav-link,
 /* Categories */
 .categories-title {
   font-weight: 600;
+  width: 140px;
+  line-height: 2;
+  border-radius: 5px 5px 5px 5px;
+  border-bottom: 10px solid orange;
 }
 
 .categories {
@@ -198,4 +202,8 @@ nav.navbar-light .navbar-nav .active>.nav-link,
 
 .cat-product.cat-pro {
   border-radius: 10px 1px 0px 30px;
+}
+
+.cat-product h5 {
+  font-weight: 600;
 }
